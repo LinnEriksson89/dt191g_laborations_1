@@ -21,7 +21,6 @@ C:\Users\Pleu_\Documents\Mittuniversitetet\Webbutveckling med .NET\Laborationer\
 C:\Users\Pleu_\Documents\Mittuniversitetet\Webbutveckling med .NET\Laborationer\Uppgift1\obj\Debug\net10.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Pleu_\Documents\Mittuniversitetet\Webbutveckling med .NET\Laborationer\Uppgift1\obj\Debug\net10.0\scopedcss\bundle\Uppgift1.styles.css
 C:\Users\Pleu_\Documents\Mittuniversitetet\Webbutveckling med .NET\Laborationer\Uppgift1\obj\Debug\net10.0\scopedcss\projectbundle\Uppgift1.bundle.scp.css
-C:\Users\Pleu_\Documents\Mittuniversitetet\Webbutveckling med .NET\Laborationer\Uppgift1\obj\Debug\net10.0\compressed\tgqrl37405-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\Pleu_\Documents\Mittuniversitetet\Webbutveckling med .NET\Laborationer\Uppgift1\obj\Debug\net10.0\compressed\65cknr1vlf-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\Pleu_\Documents\Mittuniversitetet\Webbutveckling med .NET\Laborationer\Uppgift1\obj\Debug\net10.0\compressed\k5ubnbcn23-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\Pleu_\Documents\Mittuniversitetet\Webbutveckling med .NET\Laborationer\Uppgift1\obj\Debug\net10.0\compressed\xx9wgmo37q-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -95,3 +94,5 @@ C:\Users\Pleu_\Documents\Mittuniversitetet\Webbutveckling med .NET\Laborationer\
 C:\Users\Pleu_\Documents\Mittuniversitetet\Webbutveckling med .NET\Laborationer\Uppgift1\obj\Debug\net10.0\Uppgift1.pdb
 C:\Users\Pleu_\Documents\Mittuniversitetet\Webbutveckling med .NET\Laborationer\Uppgift1\obj\Debug\net10.0\Uppgift1.genruntimeconfig.cache
 C:\Users\Pleu_\Documents\Mittuniversitetet\Webbutveckling med .NET\Laborationer\Uppgift1\obj\Debug\net10.0\ref\Uppgift1.dll
+C:\Users\Pleu_\Documents\Mittuniversitetet\Webbutveckling med .NET\Laborationer\Uppgift1\obj\Debug\net10.0\Uppgift1.sourcelink.json
+C:\Users\Pleu_\Documents\Mittuniversitetet\Webbutveckling med .NET\Laborationer\Uppgift1\obj\Debug\net10.0\compressed\tgqrl37405-{0}-170w3qz768-170w3qz768.gz
