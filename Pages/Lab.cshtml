@@ -3,12 +3,43 @@
     ViewData["Title"] = "Laborationer";
 
     //Variables
-    DayOfWeek day = DateTime.Now.DayOfWeek;
-    DayOfWeek saturday = DayOfWeek.Saturday;
-    DayOfWeek sunday = DayOfWeek.Sunday;
+    DayOfWeek today = DateTime.Now.DayOfWeek;
+    string day = "";
 
     //Array
-    string[] weekdays = {"Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag", "Lördag", "Söndag"};
+    string[] weekdays = {"måndag", "tisdag", "onsdag", "torsdag", "fredag", "lördag", "söndag"};
+
+    //Set a variable with the Swedish name
+    @switch(today)
+    {
+        case DayOfWeek.Monday:
+        day = weekdays[0];
+        break;
+
+        case DayOfWeek.Tuesday:
+        day = weekdays[1];
+        break;
+
+        case DayOfWeek.Wednesday:
+        day = weekdays[2];
+        break;
+
+        case DayOfWeek.Thursday:
+        day = weekdays[3];
+        break;
+
+        case DayOfWeek.Friday:
+        day = weekdays[4];
+        break;
+
+        case DayOfWeek.Saturday:
+        day = weekdays[5];
+        break;
+
+        case DayOfWeek.Sunday:
+        day = weekdays[6];
+        break;
+    }
 }
 
 <h1>Laborationer - Uppgift 1</h1>
@@ -25,7 +56,7 @@
             <ul>
                 @foreach (string weekday in weekdays)
                 {
-                    <li>@weekday</li>
+                    <li class="text-capitalize">@weekday</li>
                 }
             </ul>
         </div>
@@ -35,14 +66,18 @@
 <article>
     <h2>Variabler och villkorssats</h2>
 
-    <p>I nedanstående kort skrivs veckodagens namn ut med en variabel, sedan används en if/else-sats för att avgöra om det är helg eller inte och lämplig text skrivs ut i meningen.</p>
+    <p>I nedanstående kort skrivs veckodagens namn ut med en variabel som har hämtat datan från den tidigare använda arrayen via en switch-sats, sedan används en if/else-sats för att avgöra om det är helg eller inte och lämplig text skrivs ut i meningen.</p>
 
     <div class="card">
         <p class="card-header fw-bold">Resultat:</p>
-        <p class="card-body">Det engelska namnet på dagens veckodag är @day, det innebär att det 
-            @if (day == saturday || day == sunday)
+        <p class="card-body">Dagens veckodag är @day, det innebär att det 
+            @if (today == DayOfWeek.Saturday || today == DayOfWeek.Sunday)
             {
                 <span>är helg! :D</span>
+            }
+            else if(today == DayOfWeek.Friday) 
+            {
+                <span>snart är helg! :)</span>
             }
             else
             {
