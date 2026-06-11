@@ -1,8 +1,53 @@
 @page
 @{
     ViewData["Title"] = "Laborationer";
+
+    //Variables
+    DayOfWeek day = DateTime.Now.DayOfWeek;
+    DayOfWeek saturday = DayOfWeek.Saturday;
+    DayOfWeek sunday = DayOfWeek.Sunday;
+
+    //Array
+    string[] weekdays = {"Måndag", "Tisdag", "Onsdag", "Torsdag", "Fredag", "Lördag", "Söndag"};
 }
 
 <h1>Laborationer - Uppgift 1</h1>
 
 <p>Nedan följer dom delar som enligt uppgiften behövde vara med i laborationen.</p>
+
+<article>
+    <h2>Array och loop</h2>
+    <p>I nedanstående kort skrivs veckans dagar ut från en array med hjälp av en foreach-loop.</p>
+    <div class="card">
+        <p class="card-header fw-bold">Resultat:</p>
+        <div class="card-body">
+            <p>Veckans dagar är:</p>
+            <ul>
+                @foreach (string weekday in weekdays)
+                {
+                    <li>@weekday</li>
+                }
+            </ul>
+        </div>
+    </div>
+</article>
+
+<article>
+    <h2>Variabler och villkorssats</h2>
+
+    <p>I nedanstående kort skrivs veckodagens namn ut med en variabel, sedan används en if/else-sats för att avgöra om det är helg eller inte och lämplig text skrivs ut i meningen.</p>
+
+    <div class="card">
+        <p class="card-header fw-bold">Resultat:</p>
+        <p class="card-body">Det engelska namnet på dagens veckodag är @day, det innebär att det 
+            @if (day == saturday || day == sunday)
+            {
+                <span>är helg! :D</span>
+            }
+            else
+            {
+                <span>inte är helg än. :(</span>
+        }
+        </p>
+    </div>
+</article>
