@@ -47,3 +47,16 @@ nav div.container {
     border: 2px solid #f1f1f1;
     border-radius: 10px;
 }
+
+h2 {
+    margin-top: 28px;
+}
+
+p {
+    max-width: 600px;
+}
+
+div.card {
+    max-width: 600px;
+    margin-bottom: 16px;
+}
