@@ -10,3 +10,5 @@ Variabler.
 Array eller lista (till exempel en uppsättning med kurser).
 Loop genom arrayen (ex foreach) för att skriva ut dess värden.
 Villkorssats (exempelvis if/else).
+
+Denna uppgift finns publicerad på [https://linndt191glab1.azurewebsites.net/](https://linndt191glab1.azurewebsites.net/).
